@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+  background-image:url(/img/nsplsh_586d7675575244696d7267_mv2_d_3456_5184_s_4_2.jpg) ;
+  background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;    
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:100%;
+     background-color:#454545c9;
+     height: 10vh;
+}
+.header-items{
+    display: flex;
+    justify-content: space-between;
+    width: 48%;
+}
+.logo{
+
+    height: 60px;
+    width: 60px;
+  border-radius: 50%;
+  
+  }
+#nav-search{
+    margin-top: 20px;
+   
+    
+}
+#input{
+   padding: 6px;
+   width: 20vw;
+   
+   
+}
+#botton{
+height:30px;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between; 
+   width: 100%;
+   height: 10vh;
+}
+li{
+border-left: solid 3px black;
+list-style-type: none;
+height:8vh;
+width: 100%;
+text-align: center;
+margin-top: 15px;
+font-size: larger;
+}
+li a{
+    color:white;
+    margin-top:25vh;
+    height:6vh;
+ text-decoration: none;
+}
+#title{
+    text-align: center;
+    font-size: larger;
+    color: white;
+    background-color:#3b171790;
+}
+#prices-list{
+    display: flex;
+    flex-wrap: wrap;
+ justify-content: center;
+   width: 100%; 
+}
+.prices{
+    width: 32%;
+    height: 50vh;
+    margin: 15px;
+   border-radius: 10%;
+    background-color:#45454590;
+    text-align:center;
+    color: white;  
+    animation-name: prices;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+@keyframes prices {
+    0%{transform: scale(0%);}
+    100%{transform: scale(100%);}
+}
+
+.conditionds{
+    width: 25%;
+    height: 15vh;
+}
+.prices img{
+    width: 30%;
+    height: 30%;
+} 
+
+
